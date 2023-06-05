@@ -22,7 +22,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const DrawMap = () => {
-  const [center, setCenter] = useState( { lat: 19.0760, lng: 72.8777 });
+  const [center] = useState( { lat: 19.0760, lng: 72.8777 });
   const ZOOM_LEVEL = 12;
   const mapRef = useRef();
 
